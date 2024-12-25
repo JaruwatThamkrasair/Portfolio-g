@@ -23,7 +23,7 @@ const Profile = () => {
         <Typography variant="h5" paragraph className="textLoading">
           
         </Typography>
-        <a href="/Jaruwat_Thamkrasair(EN).pdf">
+        <a href="public/Jaruwat_Thamkrasair(EN).pdf">
         <Button variant="contained" color="error" size="large" sx={{ mt: 3 }}>
           <Typography variant="body1" color="white">My Resume</Typography>
         </Button>
