@@ -1,0 +1,149 @@
+.hovericon {
+    transform: scale(1.0);
+    transition: transform 2s;
+}
+
+.hovericon:hover {
+    transform: scale(2.0);
+    transition: transform 2s;
+}
+
+.textLoading {
+  width: 100%;
+  font-size: 45px;
+  color: white;
+}
+
+.textLoading:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  line-height: 48px;
+  animation: abomination1 7.5s linear infinite;
+  animation-fill-mode: forwards;
+}
+
+
+  @keyframes abomination1 {
+  0% {
+    content: "I";
+  }
+  4% {
+    content: "I'";
+  }
+  8% {
+    content: "I'm";
+  }
+  12% {
+    content: "I'm a";
+  }
+  16% {
+    content: "I'm a F";
+  }
+  20% {
+    content: "I'm a Fu";
+  }
+  24% {
+    content: "I'm a Ful";
+  }
+  28% {
+    content: "I'm a Full";
+  }
+  32% {
+    content: "I'm a Full S";
+  }
+  36% {
+    content: "I'm a Full St";
+  }
+  40% {
+    content: "I'm a Full Sta";
+  }
+  44% {
+    content: "I'm a Full Stac";
+  }
+  48% {
+    content: "I'm a Full Stack";
+  }
+  52% {
+    content: "I'm a Full Stack D";
+  }
+  56% {
+    content: "I'm a Full Stack De";
+  }
+  60% {
+    content: "I'm a Full Stack Dev";
+  }
+  64% {
+    content: "I'm a Full Stack Deve";
+  }
+  68% {
+    content: "I'm a Full Stack Devel";
+  }
+  72% {
+    content: "I'm a Full Stack Develo";
+  }
+  76% {
+    content: "I'm a Full Stack Develop"; 
+  }
+  80% {
+    content: "I'm a Full Stack Develope";
+  }
+  84% {
+    content: "I'm a Full Stack Developer";
+  }
+  88% {
+    content: "I'm a Full Stack Developer !";
+  }
+  92% {
+    content: "I'm a Full Stack Developer !!";
+  }
+  96% {
+    content: "I'm a Full Stack Developer !!";
+  }
+  100% {
+    content: "I'm a Full Stack Developer !!";
+  }
+}
+
+  .box {
+  
+    place-content: center;
+    --border-angle: 0turn;
+    --main-bg: conic-gradient(
+      from var(--border-angle),
+      rgb(255, 255, 255),
+      rgb(255, 255, 255) 5%,
+      rgb(255, 255, 255) 60%,
+      rgb(255, 255, 255) 95%
+    );
+  
+    border: solid 5px transparent;
+
+    --gradient-border: conic-gradient(from var(--border-angle), transparent 25%, #08f, #f03 99%, transparent);
+  
+    background: 
+      var(--main-bg) padding-box,
+      var(--gradient-border) border-box,
+      var(--main-bg) border-box;
+  
+    background-position: center center;
+  
+    animation: bg-spin 3s linear infinite;
+  }
+  
+  @keyframes bg-spin {
+    to {
+      --border-angle: 1turn;
+    }
+  }
+  
+  .box:hover {
+    animation-play-state: paused;
+  }
+  
+  @property --border-angle {
+    syntax: "<angle>";
+    inherits: true;
+    initial-value: 0turn;
+  }
+  
