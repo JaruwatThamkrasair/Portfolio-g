@@ -1,21 +1,10 @@
 import React from "react";
 import { Box, Typography, Grid, Avatar } from "@mui/material";
-
+import reacticon from '../assets/React-logo.webp';
+import expressicon from '../assets/express-js.png';
+import nesticon from '../assets/Nest.png';
+import Phpicon from "../assets/php.png";
 const Projects = () => {
-  const skills = [
-    { name: "HTML", icon: '/HTML5_Badge.png' },
-    { name: "CSS", icon: '/CSS3_logo.svg' },
-    { name: "ReactJs", icon: '/React-logo.webp' },
-    { name: "NextJs", icon: '/nextjs.jpeg' },
-    { name: "NestJs", icon: '/Nest.png' },
-    { name: "MySQL", icon: '/mysql.webp' },
-    { name: "MSSQL", icon: '/mssql.webp' },
-    { name: "muiReact", icon: '/muilogo.png' },
-    { name: "Prisma", icon: '/prisma.webp' },
-    { name: "Tailwind", icon: '/Tailwind-logo.webp' },
-    { name: "Bootstrap", icon: '/Bootstrap-logo.webp' },
-  ];
-
   return (
     <Box id='Portfolio' sx={{ py: 8, textAlign: "center", backgroundColor: "Black" }}>
       <Typography variant="h4" gutterBottom color="white" >
@@ -43,9 +32,9 @@ const Projects = () => {
           Website for Showing Data Carbon Footprint, Created by Frontend React and Backend Nodejs Express
         </Typography>
         <Box sx={{ mt: 2 }}>
-        <img src="/React-logo.webp" width={70} alt="reactjs" ></img>
+        <img src={reacticon} width={70} alt="reactjs" ></img>
 
-        <img src="/express-js.png" width={70} alt="reactjs" ></img>
+        <img src={expressicon} width={70} alt="reactjs" ></img>
       
         </Box>
       </Box>
@@ -103,9 +92,9 @@ const Projects = () => {
         Website Serve Restaurant for Thammasat Sport Festival, Created by Frontend React and Backend Nestjs
         </Typography>
         <Box sx={{ mt: 2 }}>
-        <img src="/React-logo.webp" width={70} alt="reactjs" ></img>
+        <img src={reacticon} width={70} alt="reactjs" ></img>
 
-        <img src="/Nest.png" width={70} alt="reactjs" ></img>
+        <img src={nesticon} width={70} alt="reactjs" ></img>
       
         </Box>
       </Box>
@@ -129,9 +118,9 @@ const Projects = () => {
           Website Inventory CRUD Data and Interface Servicedesk for Notification Camera Offline Created by Frontend React and Backend PHP
         </Typography>
         <Box sx={{ mt: 2, display:'flex', alignContent:'center', alignItems:'center' }}>
-        <img src="/React-logo.webp" width={70} alt="reactjs" ></img>
+        <img src={reacticon} width={70} alt="reactjs" ></img>
 
-        <img src="/php.png" width={70} alt="reactjs" ></img>
+        <img src={Phpicon} width={70} alt="reactjs" ></img>
       
         </Box>
       </Box>

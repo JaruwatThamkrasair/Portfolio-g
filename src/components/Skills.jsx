@@ -1,19 +1,29 @@
 import React from "react";
 import { Box, Typography, Grid, Avatar } from "@mui/material";
-
+import HTML from '../assets/HTML5_Badge.png';
+import CSS from '../assets/CSS3_logo.svg';
+import ReactJs from '../assets/React-logo.webp';
+import NextJs from '../assets/nextjs.jpeg';
+import NestJs from '../assets/Nest.png';
+import MySQL from '../assets/mysql.webp';
+import MSSQL from '../assets/mssql.webp';
+import muiReact from '../assets/muilogo.png';
+import Prisma from '../assets/prisma.webp';
+import Tailwind from '../assets/Tailwind-logo.webp';
+import Bootstrap from '../assets/Bootstrap-logo.webp';
 const Skill = () => {
   const skills = [
-    { name: "HTML", icon: '/HTML5_Badge.png' },
-    { name: "CSS", icon: '/CSS3_logo.svg' },
-    { name: "ReactJs", icon: '/React-logo.webp' },
-    { name: "NextJs", icon: '/nextjs.jpeg' },
-    { name: "NestJs", icon: '/Nest.png' },
-    { name: "MySQL", icon: '/mysql.webp' },
-    { name: "MSSQL", icon: '/mssql.webp' },
-    { name: "muiReact", icon: '/muilogo.png' },
-    { name: "Prisma", icon: '/prisma.webp' },
-    { name: "Tailwind", icon: '/Tailwind-logo.webp' },
-    { name: "Bootstrap", icon: '/Bootstrap-logo.webp' },
+    { name: "HTML", icon: HTML },
+    { name: "CSS", icon: CSS },
+    { name: "ReactJs", icon: ReactJs },
+    { name: "NextJs", icon: NextJs },
+    { name: "NestJs", icon: NestJs },
+    { name: "MySQL", icon: MySQL },
+    { name: "MSSQL", icon: MSSQL },
+    { name: "muiReact", icon: muiReact },
+    { name: "Prisma", icon: Prisma },
+    { name: "Tailwind", icon: Tailwind },
+    { name: "Bootstrap", icon: Bootstrap },
   ];
 
   return (

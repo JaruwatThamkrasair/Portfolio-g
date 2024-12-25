@@ -1,11 +1,13 @@
 import React from "react";
 import { Box, Typography, Grid, Avatar } from "@mui/material";
-
+import Postman from '../assets/postman-icon.svg';
+import Docker from '../assets/docker.jpg';
+import Visual from '../assets/vscode.webp';
 const ToolsMenu = () => {
   const Tools = [
-    { name: "Postman", icon: '/postman-icon.svg' },
-    { name: "Docker", icon: '/docker.jpg' },
-    { name: "Visual Studio Code", icon: '/vscode.webp' },
+    { name: "Postman", icon: Postman },
+    { name: "Docker", icon: Docker },
+    { name: "Visual Studio Code", icon: Visual },
   ];
 
   return (

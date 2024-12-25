@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Typography, Grid, Avatar } from "@mui/material";
-
+import ProfileImage from "../assets/Profile.jpg";
 const About = () => {
   return (
     <Box id='Profile' className='box' sx={{ py: 8, px: 4 }}>
@@ -11,7 +11,7 @@ const About = () => {
         <Grid item xs={12} md={4}>
           <Avatar
             alt="Jaruwat Thamkrasair"
-            src="/Profile.jpg"
+            src={ProfileImage}
             sx={{ width: 150, height: 150, mx: "auto" }}
             className="hovericon"
           />
